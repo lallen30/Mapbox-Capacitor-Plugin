@@ -14,4 +14,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '13.0'
   s.dependency 'Capacitor'
   s.swift_version = '5.1'
+  s.dependency 'MapboxCoreNavigation', '~> 2.12'
+  s.dependency 'MapboxNavigation', '~> 2.12'
+  s.dependency 'MapboxDirections', '~> 2.10.0'
+  
+  s.pod_target_xcconfig = {
+    'MAPBOX_ACCESS_TOKEN' => 'pk.eyJ1IjoiZ290c3BvdHBhcmtpbmciLCJhIjoiY2xlMndxODU3MDM3ZzNwc2s2cHNjMHZlcCJ9.nbp4Vz3Nq6qFMyul-Cjxzg'
+  }
 end

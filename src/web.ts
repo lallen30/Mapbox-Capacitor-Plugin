@@ -10,7 +10,7 @@ export class MapboxCapacitorPluginWeb extends WebPlugin implements MapboxCapacit
     return { value: options.value };
   }
 
-  async showHelloWorld(): Promise<void> {
+  async showMapbox(): Promise<void> {
     console.log("web.ts");
   }
 }
