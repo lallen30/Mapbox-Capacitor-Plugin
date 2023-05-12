@@ -6,7 +6,7 @@ public class MapboxCapacitorPluginPlugin: CAPPlugin {
 
     @objc func showHelloWorld(_ call: CAPPluginCall) {
             DispatchQueue.main.async {
-                let helloWorldVC = HelloWorldViewController()
+                let helloWorldVC = MapboxCapacitorPluginViewController()
                 let navigationController = UINavigationController(rootViewController: helloWorldVC)
                 
                 if let viewController = self.bridge?.viewController {

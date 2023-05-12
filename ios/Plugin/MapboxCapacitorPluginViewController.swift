@@ -1,6 +1,6 @@
 import UIKit
 
-class HelloWorldViewController: UIViewController {
+class MapboxCapacitorPluginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
