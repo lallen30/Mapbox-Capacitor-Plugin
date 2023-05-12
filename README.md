@@ -64,3 +64,15 @@ npx cap open ios
 Make sure to set the Signing $ Capabilities -> Team.
 
 run on your device or simulator.
+
+Note:
+
+be sure to import in your page.ts file
+
+import { MapboxCapacitorPlugin } from 'mapbox-capacitor-plugin';
+
+and use function:
+
+  async showMapbox() {
+    await MapboxCapacitorPlugin.showMapbox();
+  }
